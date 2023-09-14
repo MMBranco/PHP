@@ -25,11 +25,11 @@
             session_start();
             if(isset($_SESSION["postagens"])) { 
 
-            foreach ($_SESSION["postagens"] as $postagem) 
+            foreach ($_SESSION["postagens"] as $postagem) {
                 echo '<div class="card">';
                 echo "<strong> $usuario: </strong>";
                 echo "$postagem";
-                echo '</div>';  
+                echo '</div>';  }
             }else {
                 //Se não existir nenhuma postagem.
                 echo "<p> Nenhuma postagem encontrada! </p>";
