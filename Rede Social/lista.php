@@ -31,7 +31,7 @@
                 echo "$postagem";
                 echo '</div>';  }
             }else {
-                //Se não existir nenhuma postagem.
+                // Se não existir nenhuma postagem.
                 echo "<p> Nenhuma postagem encontrada! </p>";
             }
 
